@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Julia Xu's Engineering Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Apply the background image to the body to cover the whole page */
+			body {
+				background: url('images/launch.png') no-repeat center center fixed; /* Replace 'path_to_image' with your actual image path */
+				background-size: cover; /* Ensure the image covers the entire background */
+				margin: 0;
+				padding: 0;
+				font-family: 'Arial', sans-serif;
+				color: #FFFFFF; /* Ensure text is readable on a dark background */
+			}
+
+			#wrapper {
+				min-height: 100vh;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: flex-start;
+				text-align: center;
+				padding: 50px 0;
+				background-color: rgba(0, 0, 0, 0.6); /* Optional: Add a transparent overlay to darken the image for better text visibility */
+			}
+
+			#intro {
+				padding: 100px 20px;
+				text-align: center;
+				border-radius: 10px;
+			}
+
+			#intro h1 {
+				font-size: 3rem;
+				margin: 0 0 20px 0;
+			}
+
+			#intro p {
+				font-size: 1.5rem;
+				margin: 0;
+			}
+
+			/* Make the iframe for the slideshow larger and responsive */
+			.presentation-container iframe {
+				width: 55%; /* Set the iframe to cover 80% of the page width */
+				height: 600px; /* Increase the height for better visibility */
+				border: none; /* Remove borders */
+				margin: 20px 0; /* Add some space above and below the iframe */
+			}
+
+			.presentation-container {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+		<div id="wrapper" class="fade-in">
+
+			<!-- Intro -->
+			<div id="intro">
+				<h1>Welcome to my<br />
+				Engineering Portfolio</h1>
+				<p>Hey, I'm Julia and I'm a third year Aerospace Engineering Student at the University of Toronto.<br />
+				You can look through some highlights of the projects I've worked on below.</p>
+			</div>
+
+			<!-- Google Slides Container -->
+			<div class="presentation-container">
+				<iframe 
+					src="https://docs.google.com/presentation/d/e/2PACX-1vQt705VVlVhk8Nw0AaVPfJanreP1M7Pi_ZUnUvvAZPSXwEK_McGZRozBG1EDTE6MNbBpTGYYHE2lsaB/embed?start=false&loop=false&delayms=60000" 
+					loading="lazy" 
+					allowfullscreen="true" 
+					mozallowfullscreen="true" 
+					webkitallowfullscreen="true">
+				</iframe>
+			</div>
+
+		</div>
+
+
+	</body>
+</html>
